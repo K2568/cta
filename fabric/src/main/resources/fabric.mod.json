@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "createtransportadditions",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Create: Transport Additions",
+  "description": "An addon for Create that adds more transportation options!",
   "authors": [
-    "Me!"
+    "K256"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/K256-Unofficial/CreateTransportAdditions"
   },
   "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "icon": "assets/createtransportadditions/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.ExampleModFabric"
+      "com.k256.createtransportadditions.fabric.CTAFabric"
     ]
   },
   "mixins": [

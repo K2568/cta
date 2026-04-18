@@ -4,30 +4,30 @@ loaderVersion = "[${forge_version},)"
 license = "Insert License Here"
 
 [[mods]]
-modId = "examplemod"
+modId = "createtransportadditions"
 version = "${version}"
-displayName = "Example Mod"
-authors = "Me!"
+displayName = "Create: Transport Additions"
+authors = "K256"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+An addon for Create that adds more transportation options!
 '''
 logoFile = "icon.png"
 
-[[dependencies.examplemod]]
+[[dependencies.createtransportadditions]]
 modId = "forge"
 mandatory = true
 versionRange = "[${forge_version},)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.createtransportadditions]]
 modId = "minecraft"
 mandatory = true
 versionRange = "${minecraft_version}"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.examplemod]]
+[[dependencies.createtransportadditions]]
 modId="create"
 mandatory=true
 versionRange="${create_version}"

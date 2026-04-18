@@ -1,19 +1,20 @@
-package net.examplemod.fabric;
+package com.k256.createtransportadditions.fabric;
 
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
-import net.examplemod.ExampleBlocks;
-import net.examplemod.ExampleMod;
+import com.k256.createtransportadditions.CTA;
+import com.k256.createtransportadditions.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleModFabric implements ModInitializer {
+public class CTAFabric implements ModInitializer {
     @Override
     public void onInitialize() {
-        ExampleMod.init();
-        ExampleMod.LOGGER.info(EnvExecutor.unsafeRunForDist(
+        CTA.init();
+        CTA.LOGGER.info(EnvExecutor.unsafeRunForDist(
                 () -> () -> "{} is accessing Porting Lib on a Fabric client!",
                 () -> () -> "{} is accessing Porting Lib on a Fabric server!"
-                ), ExampleMod.NAME);
+                ), CTA.NAME);
         // on fabric, Registrates must be explicitly finalized and registered.
-        ExampleBlocks.REGISTRATE.register();
+        ModBlocks.REGISTRATE.register();
     }
 }
+

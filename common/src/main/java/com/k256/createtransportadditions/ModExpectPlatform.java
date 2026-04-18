@@ -1,8 +1,8 @@
-package net.examplemod;
+package com.k256.createtransportadditions;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 
-public class ExampleExpectPlatform {
+public class ModExpectPlatform {
     /**
      * an example of {@link ExpectPlatform}.
      * <p>
@@ -10,9 +10,9 @@ public class ExampleExpectPlatform {
      * platform sub-package, with its class suffixed with {@code Impl}.
      * <p>
      * Example:
-     * Expect: net.examplemod.ExampleExpectPlatform#platformName()
-     * Actual Fabric: net.examplemod.fabric.ExampleExpectPlatformImpl#platformName()
-     * Actual Forge: net.examplemod.forge.ExampleExpectPlatformImpl#platformName()
+     * Expect: com.k256.createtransportadditions.ModExpectPlatform#platformName()
+     * Actual Fabric: com.k256.createtransportadditions.fabric.ModExpectPlatformImpl#platformName()
+     * Actual Forge: com.k256.createtransportadditions.forge.ModExpectPlatformImpl#platformName()
      * <p>
      * <a href="https://plugins.jetbrains.com/plugin/16210-architectury">You should also get the IntelliJ plugin to help with @ExpectPlatform.</a>
      */
