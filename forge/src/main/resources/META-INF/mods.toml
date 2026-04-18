@@ -8,10 +8,7 @@ modId = "createtransportadditions"
 version = "${version}"
 displayName = "Create: Transport Additions"
 authors = "K256"
-description = '''
-An addon for Create that adds more transportation options!
-'''
-logoFile = "icon.png"
+description = ""
 
 [[dependencies.createtransportadditions]]
 modId = "forge"
